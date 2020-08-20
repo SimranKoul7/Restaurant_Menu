@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Restaurant_Menu</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  </head>
+  <body id="mainb">
+    
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+      <a class="navbar-brand" href="#">
+        <img src="main.jpg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        GoodChef: Restaurant Menu 
+      </a>
+    </nav>
+    <div class="cont2">
+      <h1>Select the option to get details!!!</h1>
+    </div>
+    
+    <div class="cont1">
+      <select name="item restaurant-dropdown restaurant" class="custom-select custom-select-lg mb-3" id="restaurant">
+        <option value="">Select Your Menu</option>
+    </select>
+    <br>
+  
+    <table id="tables" class="table table-light table table-hover table-bordered table_data">
+      <tr>
+        <th>Name</th>
+        <td id="menuname"></td>
+      </tr>
+      <tr>
+        <th>ID</th>
+        <td id="id"></td>
+      </tr>
+      <tr>
+        <th>Short Name</th>
+        <td id="sname"></td>
+      </tr>
+      <tr>
+        <th>Description</th>
+        <td id="descp"></td>
+      </tr>
+      <tr>
+        <th>Price Small</th>
+        <td id="psmall"></td>
+      </tr>
+      <tr>
+        <th>Price Large</th>
+        <td id="plarge"></td>
+      </tr>
+    </table>
+  
+
+    </div>
+    <footer class= "foot1">
+      © Details:
+              <a href="mailto:skoul@mitaoe.ac.in">skoul@mitaoe.ac.in</a>
+     
+    </footer>
+    
+    <script src="lib/jquery-3.5.1.min.js"></script>
+    <script src="script.js" defer></script>
+
+  </body>
+</html>
